@@ -1,11 +1,63 @@
+:root {
+	--primary-background: #F5F5F5;
+	--secondary-background: #E0E0E0;
+	--tertiary-background: #CCCCCC;
+	--primary-color: #000000;
+	--secondary-color: #333333;
+	--tertiary-color: #666666;
+	--highlight: #ff0000;
+	--undetermined: #0cb7f0;
+	--undetermined-hover: #0baad6;
+	--selected: #25b04a;
+	--selected-hover: #20963f;
+	--disabled: #eb0909;
+	--disabled-hover: #d10808;
+
+	--website-name-font: 'Roboto';
+	--heading-font: 'Montserrat';
+	--text-font: 'Poppins';
+	--backup-font: 'Rubik';
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../Asset/Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../Asset/Fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../Asset/Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../Asset/Fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+  
+
 body{
-    background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: var(--text-font);
 }
 
-h1{
-    color: red;
-}
-
-p{
-    color: blue;
+#loginbodywrapper{
+	float: left;
+	width: 100%;
 }
