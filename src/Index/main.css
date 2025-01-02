@@ -1,0 +1,27 @@
+:root {
+	--primary-background: #F5F5F5;
+	--secondary-background: #E0E0E0;
+	--tertiary-background: #CCCCCC;
+	--primary-color: #000000;
+	--secondary-color: #333333;
+	--tertiary-color: #666666;
+	--highlight: #ff0000;
+	--undetermined: #0cb7f0;
+	--undetermined-hover: #0baad6;
+	--selected: #25b04a;
+	--selected-hover: #20963f;
+	--disabled: #eb0909;
+	--disabled-hover: #d10808;
+}
+
+body{
+  background-color: white;
+}
+
+h1{
+  color: black;
+}
+
+p{
+  color: red;
+}
