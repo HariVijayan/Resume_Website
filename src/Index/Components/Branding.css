@@ -1,0 +1,33 @@
+#dv-branding {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	width: 100%;
+	height: 600px;
+	background-image: url('../../Asset/Images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#h2-brand{
+    font-family: var(--website-name-font);
+    font-size: var(--website-name-huge);
+    color: var(--primary-background);
+}
+
+#dv-brandingquote {
+    width: fit-content;
+    color: gold;
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    clip-path: inset(0 100% 0 0);
+    animation: brandinganim 1s steps(11) infinite;
+}
+
+#dv-brandingquote:before {
+    content:"Carry your Resume in Style......................"
+}
+
+@keyframes brandinganim {to{clip-path: inset(0 -1ch 0 0)}}

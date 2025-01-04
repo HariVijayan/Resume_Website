@@ -1,0 +1,76 @@
+#dv-contactwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#dv-contactwrapperinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#h2-contactus{
+    font-family: var(--heading-font);
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--highlight);
+}
+
+#p-contactus{
+    color:var(--primary-color);
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+}
+
+#dv-contactoptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#dv-address{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+#h3-address{
+    font-family: var(--heading-font);
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--highlight);
+}
+
+#h4-address{
+    color:var(--primary-color);
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+    text-align: center;
+}
+
+#dv-othercontactoptions{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.othercontactopt{
+    color:var(--primary-color);
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+    text-align: center;
+}

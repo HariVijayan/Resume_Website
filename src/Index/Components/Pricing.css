@@ -1,0 +1,64 @@
+#dv-pricingwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#dv-pricingwrapperinner{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+}
+
+.dv-pricingoptions{
+    border-radius: 20px;
+    display: flex;
+    background-color: var(--tertiary-background);
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0% 1%;
+}
+
+#h2-pricing{
+    font-family: var(--heading-font);
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--highlight);
+}
+
+.h3-pricingoptions{
+    font-family: var(--heading-font);
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--highlight);
+}
+
+.ul-pricingfeatures{
+    padding: 0;
+}
+
+.p-pricingexplanation{
+    width: 70%;
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+    color: var(--primary-color);
+}
+
+.bt-pricing{
+    padding: 20px;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}

@@ -17,6 +17,12 @@
 	--heading-font: 'Montserrat';
 	--text-font: 'Poppins';
 	--backup-font: 'Rubik';
+
+	--website-name-huge:5rem;
+	--website-name-size:2rem;
+	--heading-size:1.5rem;
+	--text-size:1rem;
+	--small-text-size:0.75rem;
 }
 
 @font-face {
@@ -54,6 +60,7 @@ body{
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  font-size: var(--text-size);
   font-family: var(--text-font);
 }
 
